@@ -1,0 +1,61 @@
+  body {
+    pointer-events: none;
+  }
+  .heading
+  {
+    width: 100%;
+    margin: 0px;
+    box-shadow:5px 5px 5px grey;
+    font-size: 25px;
+  }
+  .heading_div
+  {
+    background: white ; 
+    border-radius: 20px; 
+    color: black;
+    box-shadow:5px 5px 5px grey;
+    font-size: 20px;
+    float: none;
+    padding: 10px;
+  }
+  .heading_div2
+  {
+    font-size: 18px ;
+  }
+  .result_para_tag
+  {
+    box-shadow:5px 5px 5px grey;
+    font-size: 20px;
+  }
+ .result_para_tag span{
+   white-space:pre-line;
+ }
+ .copy_right_footer{
+   background-color: gray;
+   color: white;
+   position: fixed;
+   box-shadow: 5px 5px 18px gray;
+   bottom: 0;
+   width: 100%;
+   line-height: 1;
+   text-align: center;
+   font-family: 'Times New Roman', Times, serifs;
+   font-size: 20px;
+ }
+ canvas{
+   border:3px dashed gray;
+   box-shadow: 5px 5px 18px grey;
+   margin-top: 160px;
+   border-radius:10px;
+   animation-name: changecolor;
+   animation-duration: 4s;
+   animation-iteration-count:infinite;
+ }
+ @keyframes changecolor{
+   from{
+     box-shadow:5px 5px 18px red;
+   }
+   to{
+     box-shadow: 5px 5px 18px blue;
+   }
+ }
